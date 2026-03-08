@@ -167,3 +167,24 @@ body{
   border-radius:50%;
   object-fit:cover;
 }
+
+/* Contactフォーム中央配置 */
+
+.contact-form-center{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* フォームの余白 */
+
+.contact-form-center{
+  max-width:600px;
+  margin:0 auto;
+  text-align:left;
+}
+
+/* 送信ボタン中央 */
+
+.contact-form-center .actions{
+  text-align:center;
+}
