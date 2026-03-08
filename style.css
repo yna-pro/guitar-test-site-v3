@@ -1,23 +1,9 @@
-body {
-  background-color: #f0f0f0;
-  font-family: sans-serif;
-}
-
-h1 {
-  color: blue;
-}
-
-p {
-  font-size: 18px;
-}
-
-/* 全体 */
 body{
   margin:0;
   font-family:sans-serif;
 }
 
-/* ヒーロー背景 */
+/* 背景 */
 .hero{
   height:100vh;
   background-image:url("images/mainvisual.jpg");
@@ -33,13 +19,12 @@ body{
 /* タイトル */
 .hero-content h1{
   font-size:4rem;
-  text-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 
-/* スクロール矢印 */
+/* 矢印の位置 */
 .scroll-down{
   position:absolute;
-  bottom:30px;
+  bottom:40px;
   left:50%;
   transform:translateX(-50%);
 }
@@ -52,26 +37,9 @@ body{
   border-bottom:3px solid white;
   border-right:3px solid white;
   transform:rotate(45deg);
-  animation:scroll 2s infinite;
-}
-
-/* アニメーション */
-@keyframes scroll{
-  0%{
-    opacity:0;
-    transform:rotate(45deg) translate(-5px,-5px);
-  }
-  50%{
-    opacity:1;
-  }
-  100%{
-    opacity:0;
-    transform:rotate(45deg) translate(5px,5px);
-  }
 }
 
 /* 下のコンテンツ */
 #content{
   padding:100px;
-  background:#f5f5f5;
 }
