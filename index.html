@@ -2,87 +2,26 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>My Site</title>
-
-<style>
-
-/* 全体 */
-body,html{
-  margin:0;
-  padding:0;
-  font-family:sans-serif;
-}
-
-/* 背景 */
-.hero{
-  height:100vh;
-  background-image:url("hero.jpg"); /* 背景画像 */
-  background-size:cover;
-  background-position:center;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:white;
-  position:relative;
-}
-
-/* タイトル */
-.hero h1{
-  font-size:50px;
-  text-shadow:0 0 10px rgba(0,0,0,0.5);
-}
-
-/* 矢印 */
-.scroll-down{
-  position:absolute;
-  bottom:30px;
-  left:50%;
-  transform:translateX(-50%);
-  font-size:40px;
-  color:white;
-  cursor:pointer;
-  animation: bounce 2s infinite;
-}
-
-/* 矢印アニメーション */
-@keyframes bounce{
-  0%,20%,50%,80%,100%{transform:translate(-50%,0);}
-  40%{transform:translate(-50%,-10px);}
-  60%{transform:translate(-50%,-5px);}
-}
-
-/* 下のコンテンツ */
-.content{
-  height:100vh;
-  padding:50px;
-}
-
-</style>
+<title>My Page</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- 画面いっぱい背景 -->
 <section class="hero">
-  <h1>My Portfolio</h1>
+  <div class="hero-content">
+    <h1>My Portfolio</h1>
+  </div>
 
-  <!-- 矢印 -->
-  <div class="scroll-down" onclick="scrollToContent()">↓</div>
+  <a href="#content" class="scroll-down">
+    <span></span>
+  </a>
 </section>
 
-<!-- 下のページ -->
-<section id="content" class="content">
-  <h2>About</h2>
-  <p>ここにサイト内容を書きます。</p>
+<section id="content">
+  <h2>Content</h2>
+  <p>ここから下がコンテンツです。</p>
 </section>
-
-<script>
-function scrollToContent(){
-  document.getElementById("content").scrollIntoView({
-    behavior:"smooth"
-  });
-}
-</script>
 
 </body>
 </html>
