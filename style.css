@@ -21,7 +21,10 @@ body{
 
 /* タイトル */
 .hero-content h1{
-  font-size:4rem;
+  font-size:90px;
+  letter-spacing:15px;
+  font-weight:300;
+  margin:0;
 }
 
 .scroll-down{
