@@ -69,3 +69,13 @@ body{
 #content{
   padding:100px;
 }
+
+/* 矢印消滅 */
+.scroll-down{
+  transition: opacity 0.5s;
+}
+
+.scroll-down.hide{
+  opacity:0;
+  pointer-events:none;
+}
