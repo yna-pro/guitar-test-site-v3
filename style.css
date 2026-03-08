@@ -123,3 +123,11 @@ body{
   color:#666;
   line-height:1.6;
 }
+
+/* グレー横線 */
+.about-line{
+  max-width:1100px;
+  height:2px;
+  background:#ccc;
+  margin:20px auto 60px auto;
+}
