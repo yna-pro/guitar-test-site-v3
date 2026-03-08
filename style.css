@@ -20,7 +20,7 @@ body{
 /* ヒーロー背景 */
 .hero{
   height:100vh;
-  background-image:url("background.jpg");
+  background-image:url("mainvisual.jpg");
   background-size:cover;
   background-position:center;
   position:relative;
