@@ -21,25 +21,38 @@ body{
   font-size:4rem;
 }
 
-/* スクロールボタン */
 .scroll-down{
   position:absolute;
   bottom:40px;
   left:50%;
   transform:translate(-50%,0);
+
   width:60px;
   height:60px;
+
   border:2px solid white;
   border-radius:50%;
+
   display:flex;
   align-items:center;
   justify-content:center;
-  color:white;
-  font-size:28px;
+
   text-decoration:none;
+
   animation:float 2s infinite;
 }
 
+/* 矢印 */
+.scroll-down span{
+  width:16px;
+  height:16px;
+  border-bottom:3px solid white;
+  border-right:3px solid white;
+
+  transform:rotate(45deg);
+}
+
+/* アニメーション */
 @keyframes float{
   0%{transform:translate(-50%,0);}
   50%{transform:translate(-50%,10px);}
