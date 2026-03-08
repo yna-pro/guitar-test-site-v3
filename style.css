@@ -88,7 +88,7 @@ body{
 
 .about h2{
   font-size:40px;
-  margin-bottom:60px;
+  margin-bottom:0;
 }
 
 /* 横並び */
