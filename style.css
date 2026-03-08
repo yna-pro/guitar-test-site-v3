@@ -10,3 +10,68 @@ h1 {
 p {
   font-size: 18px;
 }
+
+/* 全体 */
+body{
+  margin:0;
+  font-family:sans-serif;
+}
+
+/* ヒーロー背景 */
+.hero{
+  height:100vh;
+  background-image:url("background.jpg");
+  background-size:cover;
+  background-position:center;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+}
+
+/* タイトル */
+.hero-content h1{
+  font-size:4rem;
+  text-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+/* スクロール矢印 */
+.scroll-down{
+  position:absolute;
+  bottom:30px;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+/* 矢印の形 */
+.scroll-down span{
+  display:block;
+  width:20px;
+  height:20px;
+  border-bottom:3px solid white;
+  border-right:3px solid white;
+  transform:rotate(45deg);
+  animation:scroll 2s infinite;
+}
+
+/* アニメーション */
+@keyframes scroll{
+  0%{
+    opacity:0;
+    transform:rotate(45deg) translate(-5px,-5px);
+  }
+  50%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+    transform:rotate(45deg) translate(5px,5px);
+  }
+}
+
+/* 下のコンテンツ */
+#content{
+  padding:100px;
+  background:#f5f5f5;
+}
