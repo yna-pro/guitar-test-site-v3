@@ -275,7 +275,6 @@ body{
 .about-image img{
   width:80%;
   height:auto;
-  border-radius:8px;
   max-width:100%;
   display:block;
 }
