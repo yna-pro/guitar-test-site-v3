@@ -171,10 +171,14 @@ body{
 
 /* ここからコンタクトフォーム */
 .contact {
-  max-width: 800px;
-  margin: 80px auto;
   padding: 0 20px;
   background:#2f4f4f;
+}
+
+/* 中央のフォーム */
+.contact-inner{
+  max-width:800px;
+  margin:0 auto;
 }
 
 .contact-title {
