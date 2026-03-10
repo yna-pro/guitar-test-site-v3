@@ -279,8 +279,3 @@ body{
 }
 
 /* 画面はみだし防止(横スクロールしないように) */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
