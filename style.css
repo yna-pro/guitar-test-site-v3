@@ -249,10 +249,10 @@ body{
   display:flex;
   align-items:center;
   gap:40px;
-  width:100%;
   padding:80px 20px;
   box-sizing:border-box;
   background:#ffffff;
+  width: auto;
 }
 
 /* 左文章 */
