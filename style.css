@@ -90,7 +90,7 @@ body{
 .about{
   padding:20px 20px;
   text-align:center;
-  background:#708090;
+  background:#3b3b3b;
   color: #ffffff;
 }
 
@@ -227,7 +227,7 @@ body{
 }
 
 .form-submit button {
-  background: #049dbf;
+  background: #3b3b3b;
   color: white;
   border: none;
   padding: 12px 28px;
@@ -243,6 +243,7 @@ body{
 /* 画像横配置 */
 .profile{
   padding:80px 20px;
+  background:#5a585b;
 }
 
 .about-flex{
