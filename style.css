@@ -239,12 +239,12 @@ body{
   width:100%;
 }
 
-.about-container{
+.about-flex{
   display:flex;
   align-items:center;
   gap:40px;
   width:100%;
-  padding:80px 5%; /* 左右余白 */
+  padding:80px 5%;
   box-sizing:border-box;
 }
 
