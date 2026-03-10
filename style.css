@@ -84,7 +84,7 @@ body{
 .about{
   padding:100px 20px;
   text-align:center;
-  background:#2f4f4f;
+  background:#708090;
 }
 
 .about h2{
@@ -172,7 +172,7 @@ body{
 /* ここからコンタクトフォーム */
 .contact {
   padding: 0 20px;
-  background:#2f4f4f;
+  background:#708090;
 }
 
 /* 中央のフォーム */
