@@ -84,6 +84,7 @@ body{
 .about{
   padding:100px 20px;
   text-align:center;
+  background:#f5f5f5;
 }
 
 .about h2{
@@ -173,6 +174,7 @@ body{
   max-width: 800px;
   margin: 80px auto;
   padding: 0 20px;
+  background:#eeeeee;
 }
 
 .contact-title {
@@ -246,6 +248,7 @@ body{
   width:100%;
   padding:80px 5%;
   box-sizing:border-box;
+  background:#ffffff;
 }
 
 /* 左文章 */
