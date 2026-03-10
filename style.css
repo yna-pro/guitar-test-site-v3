@@ -125,11 +125,10 @@ body{
 .about-item h3{
   font-size:20px;
   margin-bottom:10px;
-  color: #ffffff;
 }
 
 .about-item p{
-  color:#666;
+  color:#ffffff;
   line-height:1.6;
 }
 
