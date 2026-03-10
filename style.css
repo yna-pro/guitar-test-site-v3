@@ -251,6 +251,7 @@ body{
   display:flex;
   align-items:stretch;
   gap:40px;
+  width:fit-content;
   max-width:900px;
   margin:0 auto;
   padding:0px 20px;
