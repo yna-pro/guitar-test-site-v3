@@ -179,7 +179,7 @@ body{
 /* ここからコンタクトフォーム */
 .contact {
   padding:80px 20px;
-  background:#708090;
+  background:#3b3b3b;
 }
 
 /* 中央のフォーム */
@@ -242,7 +242,7 @@ body{
 /* 画像横配置 */
 .profile{
   padding:80px 20px;
-  background:#5a585b;
+  background:#000000;
 }
 
 .about-flex{
