@@ -167,3 +167,61 @@ body{
   border-radius:50%;
   object-fit:cover;
 }
+
+/* ここからコンタクトフォーム */
+.contact {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+/* フォーム行 */
+.form-group {
+  display: flex;
+  align-items: flex-start;
+  border-top: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+/* ラベル */
+.form-group label {
+  width: 30%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* 入力欄 */
+.form-group input,
+.form-group textarea {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* 送信ボタン */
+.form-submit {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form-submit button {
+  background: #049dbf;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-submit button:hover {
+  background: #0183a0;
+}
