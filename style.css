@@ -278,6 +278,7 @@ body{
   display:block;
 }
 
+/* 画面はみだし防止(横スクロールしないように) */
 *,
 *::before,
 *::after {
