@@ -231,11 +231,21 @@ body{
 }
 
 /* 画像横配置 */
+body{
+  margin:0; /* ブラウザの余白を消す */
+}
+
+.about{
+  width:100%;
+}
+
 .about-container{
   display:flex;
   align-items:center;
   gap:40px;
-  margin:0 auto;
+  width:100%;
+  padding:80px 5%; /* 左右余白 */
+  box-sizing:border-box;
 }
 
 /* 左文章 */
