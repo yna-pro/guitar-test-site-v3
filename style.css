@@ -46,9 +46,7 @@
 
 /* タイトル */
 .hero-content h1{
-  display: inline-block;
   font-size:90px;
-  letter-spacing:15px;
   font-family: Helvetica;
   margin:0;
 }
