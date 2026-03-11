@@ -114,6 +114,7 @@
   font-size:40px;
   margin-bottom:0;
   font-weight:400;
+  font-family: Helvetica;
 }
 
 /* 横並び */
@@ -143,6 +144,7 @@
   font-size:20px;
   margin-bottom:10px;
   font-weight: 400;
+  font-family: Helvetica;
 }
 
 .about-item p{
@@ -175,6 +177,7 @@
   text-align: center;
   font-size: 28px;
   margin-bottom: 40px;
+  font-family: Helvetica;
 }
 
 /* フォーム行 */
@@ -191,6 +194,7 @@
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 8px;
+  font-family: Helvetica;
 }
 
 /* 入力欄 */
@@ -201,6 +205,7 @@
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 16px;
+  font-family: Helvetica;
 }
 
 /* 入力欄高さ調整 */
@@ -226,6 +231,7 @@
   font-size: 16px;
   border-radius: 6px;
   cursor: pointer;
+  font-family: Helvetica;
 }
 
 .form-submit button:hover {
@@ -250,6 +256,7 @@
   text-align:right;
   color:#ffffff;
   padding-right:60px;
+  font-family: Yu Gothic;
 }
 
 /* 右画像 */
