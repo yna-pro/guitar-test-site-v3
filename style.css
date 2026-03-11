@@ -185,6 +185,15 @@ body{
   font-size: 16px;
 }
 
+/* 入力欄高さ調整 */
+.form-group input {
+  height: 45px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
 /* 送信ボタン */
 .form-submit {
   text-align: center;
