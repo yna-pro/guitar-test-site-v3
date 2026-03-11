@@ -255,12 +255,17 @@
 .about-text{
   width:50%;
   text-align:right;
-  font-weight: 700;
+  font-weight: 400;
   color:#ffffff;
   padding-right:60px;
   font-family: Arial;
 }
 
+.about-text h2 {
+  font-family: Arial;
+  font-size: 32px;
+  font-weight: 400;
+}
 
 /* 右画像 */
 .about-image{
