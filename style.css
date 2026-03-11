@@ -5,7 +5,7 @@
   height: 100vh;
   background-image: url("images/mainvisual.jpg");
   background-size: 105%;
-  background-position: 60% center;
+  background-position: 58% center;
   background-repeat: no-repeat;
   position: relative;
   display: flex;
@@ -41,7 +41,7 @@
   font-size:90px;
   font-family: Helvetica;
   width: 100%;
-  letter-spacing: 20px;
+  letter-spacing: 45px;
   margin:0;
 }
 
