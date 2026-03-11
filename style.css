@@ -15,7 +15,7 @@ body{
   background-image:url("images/mainvisual.jpg");
 
   background-size:110%;
-  background-position:20% center;
+  background-position:56% center;
   background-repeat:no-repeat;
 
   position:relative;
@@ -24,6 +24,28 @@ body{
   justify-content:center;
   color:white;
 }
+
+/* 黒マスク */
+.hero::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.4);
+}
+
+/* 前面に出す */
+.hero-content{
+  position:relative;
+  z-index:1;
+}
+
+.scroll-down{
+  z-index:1;
+}
+
 
 /* タイトル */
 .hero-content h1{
@@ -248,40 +270,4 @@ body{
 .about-image img{
   max-width:350px;
   width:100%;
-}
-
-/* メインビジュアルマスキング */
-.hero{
-  height:100vh;
-  background-image:url("images/mainvisual.jpg");
-  background-size:110%;
-  background-position:65% center;
-  background-repeat:no-repeat;
-
-  position:relative;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:white;
-}
-
-/* 黒マスク */
-.hero::before{
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background:rgba(0,0,0,0.4);
-}
-
-/* 前面に出す */
-.hero-content{
-  position:relative;
-  z-index:1;
-}
-
-.scroll-down{
-  z-index:1;
 }
