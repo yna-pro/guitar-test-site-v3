@@ -163,7 +163,6 @@ body{
 .form-group {
   display: flex;
   align-items: flex-start;
-  border-top: 1px solid #ddd;
   padding: 20px 0;
 }
 
