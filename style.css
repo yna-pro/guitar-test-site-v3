@@ -178,23 +178,7 @@
   width:100%;
 }
 
-/* 左文章 */
-.about-text{
-  width:50%;
-  text-align:right;
-  font-weight: 400;
-  color:#ffffff;
-  padding-right:60px;
-  font-family: Arial;
-}
-
-.about-text h2 {
-  font-family: Arial;
-  font-size: 32px;
-  font-weight: 400;
-}
-
-/* 右画像 */
+/* 左画像 */
 .about-image{
   width:50%;
   display:flex;
@@ -205,6 +189,22 @@
 .about-image img{
   max-width:350px;
   width:100%;
+}
+
+/* 右文章 */
+.about-text{
+  width:50%;
+  text-align:left;
+  font-weight: 400;
+  color:#ffffff;
+  padding-right:60px;
+  font-family: Arial;
+}
+
+.about-text h2 {
+  font-family: Arial;
+  font-size: 32px;
+  font-weight: 400;
 }
 
 /* =====================================================
