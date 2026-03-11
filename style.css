@@ -11,8 +11,8 @@
   height:100vh;
   background-image:url("images/mainvisual.jpg");
 
-  background-size:111%;
-  background-position:60% center;
+  background-size:100%;
+  background-position:center center;
   background-repeat:no-repeat;
 
   position:relative;
@@ -48,6 +48,8 @@
 .hero-content h1{
   font-size:90px;
   font-family: Helvetica;
+  width: 100%;
+  text-align: center;
   margin:0;
 }
 
