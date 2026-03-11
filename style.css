@@ -207,11 +207,8 @@
   border-radius: 6px;
   font-size: 16px;
   font-family: Helvetica;
+  color: #ffffff;
   background:#3b3b3b;
-}
-
-/* 入力欄高さ調整 */
-.form-group input {
   height: 55px;
 }
 
