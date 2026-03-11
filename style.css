@@ -252,7 +252,7 @@
 }
 
 /* 左文章 */
-.about-text h2 {
+.about-text{
   width:50%;
   text-align:right;
   font-weight: 700;
