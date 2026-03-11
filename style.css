@@ -252,7 +252,7 @@
 }
 
 /* 左文章 */
-.about-text{
+.about-text h2{
   width:50%;
   text-align:right;
   font-weight: 400;
@@ -260,6 +260,7 @@
   padding-right:60px;
   font-family: Arial;
 }
+
 
 /* 右画像 */
 .about-image{
